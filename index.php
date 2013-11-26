@@ -4,20 +4,55 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
         <title>Justen Doherty - Web Developer</title>
-
-        <link href="favicon.ico" rel="icon" type="image/x-icon" />
-        <link rel="stylesheet" href="css/bootstrap.css" />
-        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" rel="stylesheet">
-        <link rel="stylesheet" href="css/style.css" />
-        <link rel="stylesheet" href="css/prettyPhoto.css" />
-
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="css/bootstrap.css" type="text/css"/>
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" type="text/css">
+        <link rel="stylesheet" href="css/style.css" type="text/css"/>
+        <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css"/>
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster&subset=latin" type="text/css">
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
           <script src="js/html5shiv.js"></script>
           <script src="js/respond.min.js"></script>
         <![endif]-->
+        <style>
+            
+            .mask-galaxy h1 {
+                font-family: "Lobster", sans-serif;
+                font-size: 30px;
+                font-weight: bold;
+                text-align: center;
+                text-transform: none;
+                line-height: 1.4;
+                margin: 0;
+                padding: 0;                
+            }
+
+            .mask-galaxy {
+                background: url('http://www.jpl.nasa.gov/spaceimages/v2/getMediumImage.php?id=PIA03519') center center;
+                -webkit-text-fill-color: transparent;
+                -webkit-background-clip: text;
+                -webkit-animation: travelGalaxy 10s linear infinite;
+                -moz-animation: travelGalaxy 10s linear infinite;
+                -moz-text-fill-color: transparent;
+                -moz-background-clip: text;
+                -moz-animation: travelGalaxy 10s linear infinite;
+                -o-text-fill-color: transparent;
+                -o-background-clip: text;
+                -o-animation: travelGalaxy 10s linear infinite;
+            }
+
+            @-webkit-keyframes travelGalaxy {
+                0% {background-position: right bottom;}
+                100% {background-position: left top;}
+            }
+            @-moz-keyframes travelGalaxy {
+                0% {background-position: right bottom;}
+                100% {background-position: left top;}
+            }            
+        </style>
+
     </head>
 
     <body data-spy="scroll" data-target="#my-nav" id="cbp-so-scroller">
@@ -31,16 +66,18 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#header"><h3></h3></a>
+
+                    <article class="mask-galaxy"><h1>Justen Doherty</h1></article>                    
+                      
                 </div>
 
                 <nav id="my-nav" class="navbar-collapse collapse" role="navigation">
                     <ul class="nav navbar-nav">
                         <li><a href="#header">Home</a></li>
-                        <li><a href="#about">About Me</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#portfolio">My Work</a></li>
-                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#about">Who Am I</a></li>
+                        <li><a href="#services">What I Do</a></li>
+                        <li><a href="#portfolio">What I've Done</a></li>
+                        <li><a href="#testimonials">What People Said</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </nav><!--/.navbar-collapse -->
@@ -76,8 +113,9 @@
         <section id="about" class="cbp-so-section cbp-so-init">
             <div class="container cbp-so-side cbp-so-side-top">
 
-                <h1>Who Am I</h1>
+                <h1>Who is Justen Doherty?</h1>
 
+                <?php /* 
                 <div class="row">
                     <div class="col-sm-2 col-sm-offset-3">
                         <figure class="round-outline">
@@ -107,6 +145,7 @@
                         </figure>
                     </div>
                 </div>
+                */ ?>
                 
                 <p>I'm an easy going kind of guy who enjoys tackling technical challenges, discussing current web trends and learning new tricks.</p>
                 <p>I believe in keeping things simple while constantly delivering quality using the best tools available.</p>                
