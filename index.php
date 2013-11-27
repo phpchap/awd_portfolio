@@ -93,7 +93,7 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <div class="main-photo" id="header-photo">
-                            <figure class="round-outline"><img class="round-photo" src="assets/profile-photo.png" alt=""></figure>
+                            <figure class="round-outline"><img class="round-photo" src="http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/2/000/1a0/35c/00dcf08.jpg" alt=""></figure>
                         </div>
                         <h1>Hello, I'm Justen Doherty</h1>
                         <p>I am a full service web design and development expert. I specialise in developing ideas into beautiful websites that add value and make people happy.</p>
@@ -146,7 +146,6 @@
                     </div>
                 </div>
                 */ ?>
-                
                 <p>I'm an easy going kind of guy who enjoys tackling technical challenges, discussing current web trends and learning new tricks.</p>
                 <p>I believe in keeping things simple while constantly delivering quality using the best tools available.</p>                
                 <p>When I'm not coding; you can normally find me drinking tea, mountain biking, snowboarding (badly) and watching films.</p>
@@ -217,7 +216,7 @@
         <section id="portfolio" class="cbp-so-section cbp-so-init">
             <div class="container cbp-so-side cbp-so-side-top">
                 <h1>My latest work</h1>
-
+<?php /* 
                 <ul class="cat-list">
                     <li class="filter btn btn-outline-white btn-small" data-filter="all">All</li>
                     <li class="filter btn btn-outline-white btn-small" data-filter="web-design">Web design</li>
@@ -225,62 +224,62 @@
                     <li class="filter btn btn-outline-white btn-small" data-filter="graphics">Graphics</li>
                     <li class="filter btn btn-outline-white btn-small" data-filter="add-ons">Add-Ons</li>
                 </ul>
-
+*/ ?>
                 <ul id="portfolio-grid" class="row portfolio-row">
                     <li class="portfolio-mix col-md-3 ui-design">
                         <figure class="portfolio-item">
-                            <a href="#">
-                                <img class="img-responsive" src="assets/whitepixels.jpg" alt="">
+                            <a href="http://www.timeout.com/london" target="_blank">
+                                <img class="img-responsive" src="assets/timeout.jpg" alt="TimeOut" title="TimeOut">
                                 <div class="caption-bg"></div>
-                                <h3>Whitepixels - UI kit v1.1</h3>
-                                <p class="portfolio-item-description">This is a great pack of premade graphics and web elements designed to help you create applications...</p>
+                                <h3>TimeOut Global Platform</h3>
+                                <p class="portfolio-item-description"></p>
                             </a>
                         </figure>
                     </li>
                     <li class="portfolio-mix col-md-3 web-design">
                         <figure class="portfolio-item">
-                            <a href="#">
-                                <img class="img-responsive" src="assets/redpoint.jpg" alt="">
+                            <a href="http://www.appboxmedia.com/" target="_blank">
+                                <img class="img-responsive" src="assets/appbox.jpg" alt="AppBox Media" title="AppBox Media">
                                 <div class="caption-bg"></div>
-                                <h3>RedPoint - Responsive HTML Template</h3>
-                                <p class="portfolio-item-description">RedPoint HTML is a responsive template built on Twitter Bootstrap grid. It contains 15 unique...</p>
+                                <h3>AppBox Media</h3>
+                                <p class="portfolio-item-description"></p>
                             </a>
                         </figure>
                     </li>
                     <li class="portfolio-mix col-md-3 add-ons">
                         <figure class="portfolio-item">
-                            <a href="#">
-                                <img class="img-responsive" src="assets/breath.jpg" alt="">
+                            <a href="http://www.atlashostels.com" target="_blank">
+                                <img class="img-responsive" src="assets/atlashostel.jpg" alt="Atlas Hostels" title="Atlas Hostels">
                                 <div class="caption-bg"></div>
-                                <h3>Breath - Vintage text Styles</h3>
-                                <p class="portfolio-item-description">This is a pack of 10 Vintage text styles. You can use all these styles in web design or web apps but I've made...</p>
+                                <h3>Atlas Hostels</h3>
+                                <p class="portfolio-item-description"></p>
                             </a>
                         </figure>
                     </li>
                     <li class="portfolio-mix col-md-3 ui-design">
                         <figure class="portfolio-item">
-                            <a href="#">
-                                <img class="img-responsive" src="assets/flushui.jpg" alt="">
+                            <a href="http://beta.connectingtravel.com" target="_blank">
+                                <img class="img-responsive" src="assets/connectingtravel.jpg" alt="Connecting Travel" title="Connecting Travel">
                                 <div class="caption-bg"></div>
-                                <h3>Flush UI</h3>
-                                <p class="portfolio-item-description">This is a pack of flat premade graphics and web elements designed to help you create applications, great online services...</p>
+                                <h3>Connecting Travel</h3>
+                                <p class="portfolio-item-description"></p>
                             </a>
                         </figure>
                     </li>
                     <li class="portfolio-mix col-md-3 graphics">
                         <figure class="portfolio-item">
-                            <a href="#">
-                                <img class="img-responsive" src="assets/book-mockups.jpg" alt="">
+                            <a href="http://neverforget.tributefunds.com" target="_blank">
+                                <img class="img-responsive" src="assets/neverforget.jpg" alt="Never Forget Tribute Funds" title="Never Forget Tribute Funds">
                                 <div class="caption-bg"></div>
-                                <h3>Hardcover Book Mockups</h3>
-                                <p class="portfolio-item-description">If you are a writer, web designer or graphic designer and you need to showcase a book in minutes, this is the product you need.</p>
+                                <h3>Tribute Funds</h3>
+                                <p class="portfolio-item-description"></p>
                             </a>
                         </figure>
                     </li>
                     <li class="portfolio-mix col-md-3 ui-design">
                         <figure class="portfolio-item">
-                            <a href="#">
-                                <img class="img-responsive" src="assets/cream-ui.jpg" alt="">
+                            <a href="http://www.viridor.com" target="_blank">
+                                <img class="img-responsive" src="assets/viridor.jpg" alt="Viridor" title="Viridor">
                                 <div class="caption-bg"></div>
                                 <h3>Cream UI</h3>
                                 <p class="portfolio-item-description">This is a great mobile UI pack designed to help you create applications for iPhone and iPad with Retina screen.</p>
@@ -290,9 +289,9 @@
                     <li class="portfolio-mix col-md-3 graphics">
                         <figure class="portfolio-item">
                             <a href="#">
-                                <img class="img-responsive" src="assets/bc-mockups.jpg" alt="">
+                                <img class="img-responsive" src="assets/richardson.jpg" alt="Richardson Hotels" title="Richardson Hotels">
                                 <div class="caption-bg"></div>
-                                <h3>Business Card Mockups</h3>
+                                <h3>Richardson Hotels</h3>
                                 <p class="portfolio-item-description">Now you can show your mousemade artwork to your clients with style. This is my second pack of Mockup Templates for your...</p>
                             </a>
                         </figure>
@@ -300,15 +299,14 @@
                     <li class="portfolio-mix col-md-3 graphics">
                         <figure class="portfolio-item">
                             <a href="#">
-                                <img class="img-responsive" src="assets/analog-ui.jpg" alt="">
+                                <img class="img-responsive" src="assets/sega.jpg" alt="SEGA" title="SEGA">
                                 <div class="caption-bg"></div>
-                                <h3>Analog - UI kit</h3>
-                                <p class="portfolio-item-description">This is a great pack of premade graphics and elements designed to help you create applications, great online services...</p>
+                                <h3>SEGA</h3>
+                                <p class="portfolio-item-description"></p>
                             </a>
                         </figure>
                     </li>
                 </ul>
-                <p><a class="btn btn-outline-white btn-big" href="#">All my work</a></p>
             </div>
         </section>
         <!-- End of Portfolio Section -->
