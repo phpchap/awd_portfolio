@@ -79,6 +79,7 @@
                         <li><a href="#portfolio">What I've Done</a></li>
                         <li><a href="#testimonials">What People Said</a></li>
                         <li><a href="#contact">Contact</a></li>
+                        <li><a href="cv/Justen_Doherty_Snr_PHP_Developer_2013.docx">CV</a></li>                        
                     </ul>
                 </nav><!--/.navbar-collapse -->
 
@@ -216,15 +217,6 @@
         <section id="portfolio" class="cbp-so-section cbp-so-init">
             <div class="container cbp-so-side cbp-so-side-top">
                 <h1>My latest work</h1>
-<?php /* 
-                <ul class="cat-list">
-                    <li class="filter btn btn-outline-white btn-small" data-filter="all">All</li>
-                    <li class="filter btn btn-outline-white btn-small" data-filter="web-design">Web design</li>
-                    <li class="filter btn btn-outline-white btn-small" data-filter="ui-design">UI design</li>
-                    <li class="filter btn btn-outline-white btn-small" data-filter="graphics">Graphics</li>
-                    <li class="filter btn btn-outline-white btn-small" data-filter="add-ons">Add-Ons</li>
-                </ul>
-*/ ?>
                 <ul id="portfolio-grid" class="row portfolio-row">
                     <li class="portfolio-mix col-md-3 ui-design">
                         <figure class="portfolio-item">
@@ -232,7 +224,7 @@
                                 <img class="img-responsive" src="assets/timeout.jpg" alt="TimeOut" title="TimeOut">
                                 <div class="caption-bg"></div>
                                 <h3>TimeOut Global Platform</h3>
-                                <p class="portfolio-item-description"></p>
+                                <p class="portfolio-item-description">symfony 2.0, symfony 1.2, Apache solr, Varnish, REST, SOA, CMS development, API integration, Code Reviews using github, git feature branches, capistrano, PHPunit, selenium, jenkins, HTML/CSS development using LESS</p>
                             </a>
                         </figure>
                     </li>
@@ -242,7 +234,7 @@
                                 <img class="img-responsive" src="assets/appbox.jpg" alt="AppBox Media" title="AppBox Media">
                                 <div class="caption-bg"></div>
                                 <h3>AppBox Media</h3>
-                                <p class="portfolio-item-description"></p>
+                                <p class="portfolio-item-description">Laravel4, Full build and delivery, Amazon EC2, Route 53, SNS, HTML5, CSS3, Responsive Layout</p>
                             </a>
                         </figure>
                     </li>
@@ -252,7 +244,7 @@
                                 <img class="img-responsive" src="assets/atlashostel.jpg" alt="Atlas Hostels" title="Atlas Hostels">
                                 <div class="caption-bg"></div>
                                 <h3>Atlas Hostels</h3>
-                                <p class="portfolio-item-description"></p>
+                                <p class="portfolio-item-description">Concrete5, Booking Engine Integration, Amazon EC2, Route 53, SNS, HTML5, CSS3, Responsive Layout</p>
                             </a>
                         </figure>
                     </li>
@@ -262,7 +254,7 @@
                                 <img class="img-responsive" src="assets/connectingtravel.jpg" alt="Connecting Travel" title="Connecting Travel">
                                 <div class="caption-bg"></div>
                                 <h3>Connecting Travel</h3>
-                                <p class="portfolio-item-description"></p>
+                                <p class="portfolio-item-description">symfony 2.0, Elgg, REST, API integration, Code Reviews using github, git feature branches, PHPunit, selenium, HTML/CSS</p>
                             </a>
                         </figure>
                     </li>
@@ -272,7 +264,7 @@
                                 <img class="img-responsive" src="assets/neverforget.jpg" alt="Never Forget Tribute Funds" title="Never Forget Tribute Funds">
                                 <div class="caption-bg"></div>
                                 <h3>Tribute Funds</h3>
-                                <p class="portfolio-item-description"></p>
+                                <p class="portfolio-item-description">symfony 1.4, symfony plugin development, mysql 5, APC, doctrine 1.2, Apostrophe CMS, SVN, SAML, SagePay, SMARTDebit, SOAP, REST, JSON, XML, jQuery, HTML, CSS, JIRA, DNS, SSL, Apache config</p>
                             </a>
                         </figure>
                     </li>
@@ -281,8 +273,8 @@
                             <a href="http://www.viridor.com" target="_blank">
                                 <img class="img-responsive" src="assets/viridor.jpg" alt="Viridor" title="Viridor">
                                 <div class="caption-bg"></div>
-                                <h3>Cream UI</h3>
-                                <p class="portfolio-item-description">This is a great mobile UI pack designed to help you create applications for iPhone and iPad with Retina screen.</p>
+                                <h3>Viridor</h3>
+                                <p class="portfolio-item-description">Wordpress, Amazon EC2, CMS training</p>
                             </a>
                         </figure>
                     </li>
@@ -292,7 +284,7 @@
                                 <img class="img-responsive" src="assets/richardson.jpg" alt="Richardson Hotels" title="Richardson Hotels">
                                 <div class="caption-bg"></div>
                                 <h3>Richardson Hotels</h3>
-                                <p class="portfolio-item-description">Now you can show your mousemade artwork to your clients with style. This is my second pack of Mockup Templates for your...</p>
+                                <p class="portfolio-item-description">SilverStripe, Amazon EC2, CMS training</p>
                             </a>
                         </figure>
                     </li>
@@ -302,7 +294,7 @@
                                 <img class="img-responsive" src="assets/sega.jpg" alt="SEGA" title="SEGA">
                                 <div class="caption-bg"></div>
                                 <h3>SEGA</h3>
-                                <p class="portfolio-item-description"></p>
+                                <p class="portfolio-item-description">OO PHP5, Omniture, SilverPOP, jQuery, API integration, payment gateway integration, code reviews, pair programming, release planning and management </p>
                             </a>
                         </figure>
                     </li>
