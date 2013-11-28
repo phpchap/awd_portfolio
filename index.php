@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Justen Doherty - Web Developer</title>
-        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="favicon.ico" type="image/x-icon" /> 
         <link rel="stylesheet" href="css/bootstrap.css" type="text/css"/>
         <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" type="text/css">
         <link rel="stylesheet" href="css/style.css" type="text/css"/>
@@ -89,7 +89,7 @@
 
 
         <!-- Jumbotron -->
-        <section class="jumbotron" id="header">
+        <section class="jumbotron" id="header" style="opacity:0.8;filter:alpha(opacity=80);">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
@@ -111,7 +111,7 @@
 
 
         <!-- About Section -->
-        <section id="about" class="cbp-so-section cbp-so-init">
+        <section id="about" class="cbp-so-section cbp-so-init" style="position: relative;z-index: 99;opacity:1.0;filter:alpha(opacity=100);">
             <div class="container cbp-so-side cbp-so-side-top">
 
                 <h1>Who is Justen Doherty?</h1>
@@ -172,7 +172,7 @@
 
 
         <!-- Services Section -->
-        <section id="services" class="cbp-so-section cbp-so-init">
+        <section id="services" class="cbp-so-section cbp-so-init" style="position: relative;z-index: 99;opacity:1.0;filter:alpha(opacity=100);">
             <div class="container cbp-so-side cbp-so-side-top">
                 <h1>What I do Exactly</h1>
                 <div class="row">
@@ -214,7 +214,7 @@
 
 
         <!-- Portfolio Section -->
-        <section id="portfolio" class="cbp-so-section cbp-so-init">
+        <section id="portfolio" class="cbp-so-section cbp-so-init" style="position: relative;z-index: 99;opacity:1.0;filter:alpha(opacity=100);">
             <div class="container cbp-so-side cbp-so-side-top">
                 <h1>My latest work</h1>
                 <ul id="portfolio-grid" class="row portfolio-row">
@@ -305,7 +305,7 @@
 
 
         <!-- Testimonials Section -->
-        <section id="testimonials" class="cbp-so-section cbp-so-init">
+        <section id="testimonials" class="cbp-so-section cbp-so-init" style="position: relative;z-index: 99;opacity:1.0;filter:alpha(opacity=100);">
             <div class="container cbp-so-side cbp-so-side-top">
                 <h1>What my colleagues said about me</h1>
                 <div class="testimonials">
@@ -364,7 +364,7 @@
 
 
         <!-- Contact Section -->
-        <section id="contact" class="cbp-so-section cbp-so-init">
+        <section id="contact" class="cbp-so-section cbp-so-init" style="position: relative;z-index: 99;opacity:1.0;filter:alpha(opacity=100);">
             <div class="container cbp-so-side cbp-so-side-top">
                 <h1>Contact me</h1>
                 <div class="row">
@@ -410,7 +410,7 @@
         <!-- End of Contact Section -->
 
         <!-- Footer -->
-        <div class="footer">
+        <div class="footer" style="position: relative;opacity:1.0;filter:alpha(opacity=100);opacity:1.0;filter:alpha(opacity=100);">
             <div class="container">
                 <p>© www.anotherwebdeveloper.com</p>
             </div>
@@ -436,6 +436,7 @@
         <script type="text/javascript" src="js/cbpScroller.js"></script>
         <script type="text/javascript" src="js/classie.js"></script>
         <script type="text/javascript" src="js/scripts.js"></script>
+        <script type="text/javascript" src="/js/jquery.tubular.1.0.js"></script>        
 
     </body>
 </html>

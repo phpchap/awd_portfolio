@@ -5,6 +5,7 @@ new cbpScroller( document.getElementById( 'cbp-so-scroller' ) );
 
 jQuery(document).ready(function() {
 
+        $('#header').tubular({videoId: 'sEZcBeE33wc'}); // where idOfYourVideo is the YouTube ID.
 
 	//Function to prevent Default Events
 	function pde(e){
