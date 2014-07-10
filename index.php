@@ -437,7 +437,7 @@
 <!-- Testimonials Section -->
 <section id="testimonials" class="cbp-so-section cbp-so-init">
     <div class="container cbp-so-side cbp-so-side-top opaq">
-        <h1>What my colleagues said about me</h1>
+        <h1>What my colleagues said</h1>
         <div class="testimonials">
             <div id="da-slider" class="da-slider">
                 <div class="da-slide">
