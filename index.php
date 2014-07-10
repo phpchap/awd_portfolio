@@ -208,21 +208,21 @@
                         </progress>
                     </li>
                     <li class="skill">
-                        <h2>Linux (10 years)</h2>
-                        <progress class="skill-2" max="100" value="100">
-                            <strong>Skill Level: 100%</strong>
-                        </progress>
-                    </li>
-                    <li class="skill">
-                        <h3>Amazon AWS (5 years)</h3>
-                        <progress class="skill-3" max="100" value="50">
+                        <h2>Amazon AWS (5 years)</h2>
+                        <progress class="skill-2" max="100" value="50">
                             <strong>Skill Level: 50%</strong>
                         </progress>
                     </li>
                     <li class="skill">
                         <h3>HTML 5 (3 years)</h3>
-                        <progress class="skill-4" max="100" value="30">
+                        <progress class="skill-3" max="100" value="30">
                             <strong>Skill Level: 30%</strong>
+                        </progress>
+                    </li>
+                    <li class="skill">
+                        <h3>Laravel 4 (1 year)</h3>
+                        <progress class="skill-4" max="100" value="10">
+                            <strong>Skill Level: 10%</strong>
                         </progress>
                     </li>
                 </ul>
