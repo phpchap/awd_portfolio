@@ -788,13 +788,13 @@ h3 {
   padding: 10px;
 }
 #portfolio .cat-list .active {
-  background-color: #df5757;
+  background-color: #3B592C;
   color: #fff;
 }
 #portfolio .resp-btn {
   height: 42px;
   width: 42px;
-  background: red;
+  background: #3B592C;
   display: none;
 }
 #portfolio .portfolio-row {
@@ -850,9 +850,9 @@ h3 {
   transition: all 0.2s ease-out;
   transition-delay: 0.4s;
   -webkit-transition-delay: 0.4s;
-  -webkit-box-shadow: inset 0 0 0 6px #df5757, inset 0 0 0 0 #579f6a;
-  -moz-box-shadow: inset 0 0 0 6px #df5757, inset 0 0 0 0 #579f6a;
-  box-shadow: inset 0 0 0 6px #df5757, inset 0 0 0 0 #579f6a;
+  -webkit-box-shadow: inset 0 0 0 6px #3B592C, inset 0 0 0 0 #579f6a;
+  -moz-box-shadow: inset 0 0 0 6px #3B592C, inset 0 0 0 0 #579f6a;
+  box-shadow: inset 0 0 0 6px #3B592C, inset 0 0 0 0 #579f6a;
 }
 #portfolio .portfolio-row .portfolio-mix .portfolio-item a .caption-bg::before {
   content: '';
@@ -954,12 +954,12 @@ h3 {
   margin: 0 10px;
 }
 #portfolio .btn-outline-white {
-  color: #df5757;
+  color: #3B592C;
   text-transform: none;
-  border: 2px solid #df5757;
+  border: 2px solid #3B592C;
 }
 #portfolio .btn-outline-white:hover {
-  background-color: #df5757;
+  background-color: #3B592C;
   color: #fff;
 }
 #portfolio p .btn-outline-white {
