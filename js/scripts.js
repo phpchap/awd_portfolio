@@ -5,7 +5,11 @@ new cbpScroller( document.getElementById( 'cbp-so-scroller' ) );
 
 jQuery(document).ready(function() {
 
-        $('#header').tubular({videoId: 'sEZcBeE33wc'}); // where idOfYourVideo is the YouTube ID.
+    // $('#header').tubular({videoId: 'zqHDO3Ke5hs'}); // where idOfYourVideo is the YouTube ID.
+    // $('#header').tubular({videoId: '6Yn3eO89Igk'}); // where idOfYourVideo is the YouTube ID.
+    $('#header').tubular({videoId: '6As9fGH9Oq4'}); // where idOfYourVideo is the YouTube ID.
+
+
 
 	//Function to prevent Default Events
 	function pde(e){
@@ -17,7 +21,8 @@ jQuery(document).ready(function() {
 
 	// Animate the header components
 	$(window).load(function () {
-		jQuery('#header-photo').delay( 100 ).animate({opacity: '1', 'margin-top' : '0'}, 1000, 'easeInOutCubic', function() {
+
+		jQuery('#header-photo').delay( 100 ).animate({opacity: '1', 'margin-top' : '20px'}, 1000, 'easeInOutCubic', function() {
 			jQuery('#header h1').delay( -200 ).animate({opacity: '1', 'padding-top': '0'}, 600, 'easeInOutCubic', function() {
 				jQuery('#header p').animate({opacity: '1'}, 400, 'easeInOutCubic');
 			});

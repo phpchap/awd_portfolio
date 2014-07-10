@@ -1,6 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,800,300);
-
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700);
+@import url(http://fonts.googleapis.com/css?family=Architects+Daughter);
+
 /*
 Theme Name:         Planus
 Description:        Planus is a clean and minimal html one page to display your work.
@@ -34,16 +35,15 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Ubuntu', sans-serif;
+    font-family: 'Architects Daughter', cursive;
 }
 h1 {
   font-size: 2.888888888888889em;
   text-transform: uppercase;
   font-weight: 700;
-  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
 }
 a {
-  color: #717171;
+  color: #84AC63;
   text-decoration: none;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -52,8 +52,92 @@ a {
 }
 a:hover {
   text-decoration: none;
-  color: #3e3e3e;
 }
+p {
+  color: #84AC63;
+}
+.mask-galaxy h1 {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: none;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+    color: #3B592C;
+}
+
+
+
+
+
+
+   progress, progress[role] {
+       -webkit-appearance: none;
+       -moz-appearance: none;
+       appearance: none;
+       border: none;
+       background-size: auto;
+       height: 100px;
+       width: 100%;
+   }
+
+   .skill-list {
+       list-style: none;
+       margin: 0;
+       padding: 1em;
+   }
+
+   .skill {
+       margin-bottom: 1em;
+       position: relative;
+h3 {
+    color: #fff;
+    left: 1em;
+    line-height: 1;
+    position: absolute;
+    top: 1em;
+}
+::-webkit-progress-value {
+    -webkit-animation: bar-fill 2s;
+    width: 0px;
+}
+}
+
+   .skill-1::-webkit-progress-value {
+       background: #ff9e2c;
+   }
+
+.skill-1::-moz-progress-bar {
+    background: #ff9e2c;
+}
+
+.skill-2::-webkit-progress-value {
+    background: #4ecdc4;
+}
+
+.skill-2::-moz-progress-bar {
+    background: #4ecdc4;
+}
+
+.skill-3::-webkit-progress-value {
+    background: #ff6b6b;
+}
+
+.skill-3::-moz-progress-bar {
+    background: #ff6b6b;
+}
+
+@-webkit-keyframes bar-fill {
+    0% { width: 0; }
+}
+
+@keyframes bar-fill {
+    0% { width: 0; }
+}
+
+
 .btn-outline-white {
   -webkit-border-radius: 4px;
   border-radius: 4px;
@@ -98,7 +182,7 @@ a:hover {
   font-size: 2em;
   width: 60px;
   height: 60px;
-  border: 2px solid #df5757;
+  border: 2px solid #BED58E;
   -webkit-border-radius: 50%;
   border-radius: 50%;
   -moz-background-clip: padding;
@@ -113,10 +197,18 @@ a:hover {
   transition: all 0.4s ease-out;
 }
 .icon-outline i:hover {
-  background-color: #df5757;
+  background-color: #BED58E;
   color: #fff;
   border: 2px solid #fff;
 }
+
+.opaq {
+  background: rgba(254, 254, 255, 0.9);
+  position: relative;
+  z-index: 99;
+  padding: 30px;
+}
+
 /* ----- CSS for scroll revealler ----- */
 .cbp-so-scroller {
   overflow: hidden;
@@ -191,6 +283,7 @@ a:hover {
 }
 /* ----- Pulsate effect -----*/
 .pulsate-opacity {
+  color: #FAEC95;
   -webkit-animation: pulsate-op 2s infinite;
   /* Safari 4+ */
 
@@ -253,7 +346,7 @@ a:hover {
    ========================================================================== */
 .navbar {
   height: auto;
-  background-color: #fff;
+  background-color: #FEFEE1;
   -webkit-box-shadow: 0 4px 0 rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 4px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 0 rgba(0, 0, 0, 0.1);
@@ -293,7 +386,7 @@ a:hover {
   background-clip: padding-box;
 }
 .navbar .navbar-nav li a:hover {
-  background-color: #df5757;
+  background-color: #BED58E;
   outline: none;
   color: #fff;
 }
@@ -302,7 +395,7 @@ a:hover {
   outline: none;
 }
 .navbar .navbar-nav li:hover {
-  background-color: #df5757;
+  background-color: #BED58E;
   color: #fff;
   -webkit-border-radius: 4px;
   border-radius: 4px;
@@ -311,7 +404,7 @@ a:hover {
   background-clip: padding-box;
 }
 .navbar .navbar-nav .active {
-  background-color: #df5757;
+  background-color: #84AC63;
   color: #fff;
   -webkit-border-radius: 4px;
   border-radius: 4px;
@@ -357,7 +450,6 @@ a:hover {
   background-color: #8b8b8b;
 }
 .navbar .navbar-collapse {
-  background-color: rgba(0, 0, 0, 0.96);
   text-align: center;
   -webkit-box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0.5);
   -moz-box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0.5);
@@ -385,26 +477,26 @@ a:hover {
   font-size: 1em;
   height: auto;
   overflow: hidden;
+  background-color: transparent;
 }
 .jumbotron .container {
   text-align: center;
 }
 .jumbotron h1 {
-  color: #000;
+  color: #3B592C;
   font-size: 2.888888888888889em;
   margin-top: 40px;
   margin-bottom: 20px;
   padding-top: 80px;
   opacity: 0;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+/*  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); */
 }
 .jumbotron p {
-  font-size: 1.333333333333333em;
+  font-size: 2em;
   line-height: 1.333333333333333em;
-  color: #000;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  color: #84AC63;
+/*  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); */
   font-weight: 500;
-  margin-bottom: 40px;
   opacity: 0;
 }
 .jumbotron p a {
@@ -417,22 +509,24 @@ a:hover {
   opacity: 0;
   margin-top: -100px;
 }
+
+.jumbotron .whitebg {
+    background: #fff;
+}
+
 /* ==========================================================================
    About Me Section
    ========================================================================== */
 #about {
   text-align: center;
   padding: 100px 0;
-  -webkit-box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0.1);
-  box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0.1);
 }
 #about h1 {
   margin: 0 0 40px 0;
-  color: #579f6a;
+  color: #3B592C;
 }
 #about .round-outline {
-  border: 2px solid #e4e4e4;
+  border: 2px solid #fff;
   margin-bottom: 40px;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
@@ -456,7 +550,7 @@ a:hover {
   background-clip: padding-box;
 }
 #about .round-outline .round-photo-anchor .round-caption-bg {
-  background-color: #df5757;
+  background-color: #BED58E;
   height: 90%;
   width: 90%;
   margin: 5%;
@@ -529,48 +623,44 @@ a:hover {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  border: 2px solid #df5757;
+  border: 2px solid #BED58E;
   margin-top: 20px;
 }
 #about .social-icons .icon-facebook {
   background: #ffffff url('../img/icon-facebook-red.png') center center no-repeat;
 }
 #about .social-icons .icon-facebook:hover {
-  background: #df5757 url('../img/icon-facebook-white.png') center center no-repeat;
+  background: #BED58E url('../img/icon-facebook-white.png') center center no-repeat;
 }
 #about .social-icons .icon-twitter {
   background: #ffffff url('../img/icon-twitter-red.png') center center no-repeat;
 }
 #about .social-icons .icon-twitter:hover {
-  background: #df5757 url('../img/icon-twitter-white.png') center center no-repeat;
+  background: #BED58E url('../img/icon-twitter-white.png') center center no-repeat;
 }
 #about .social-icons .icon-skype {
   background: #ffffff url('../img/icon-skype-red.png') center center no-repeat;
 }
 #about .social-icons .icon-skype:hover {
-  background: #df5757 url('../img/icon-skype-white.png') center center no-repeat;
+  background: #BED58E url('../img/icon-skype-white.png') center center no-repeat;
 }
 #about .social-icons .icon-dribbble {
   background: #ffffff url('../img/icon-dribbble-red.png') center center no-repeat;
 }
 #about .social-icons .icon-dribbble:hover {
-  background: #df5757 url('../img/icon-dribbble-white.png') center center no-repeat;
+  background: #BED58E url('../img/icon-dribbble-white.png') center center no-repeat;
 }
 /* ==========================================================================
    Services Section
    ========================================================================== */
 #services {
-  background-color: #df5757;
   text-align: center;
   padding: 100px 0;
   color: #fff;
-  -webkit-box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0.1);
-  box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0.1);
 }
 #services h1 {
   margin: 0 0 40px 0;
-  color: #fff;
+  color: #3B592C;
 }
 #services h2 {
   font-size: 1.444444444444444em;
@@ -579,25 +669,25 @@ a:hover {
   -moz-transition: all 0.2s ease-out;
   -o-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
-  text-shadow: 0 0 0 rgba(0, 0, 0, 0);
 }
 #services h2 a {
-  color: #fff;
+  color: #3B592C;
 }
+
 #services .service-icon {
   margin-top: 40px;
   height: 80px;
   width: 80px;
   display: inline-block;
-  background-color: #df5757;
+  background-color: #BED58E;
   -webkit-border-radius: 50%;
   border-radius: 50%;
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  -webkit-box-shadow: inset 0 0 0 50px #df5757;
-  -moz-box-shadow: inset 0 0 0 50px #df5757;
-  box-shadow: inset 0 0 0 50px #df5757;
+  -webkit-box-shadow: inset 0 0 0 50px #BED58E;
+  -moz-box-shadow: inset 0 0 0 50px #BED58E;
+  box-shadow: inset 0 0 0 50px #BED58E;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   -o-transition: all 0.2s ease-out;
@@ -631,6 +721,10 @@ a:hover {
   -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
   -moz-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
   box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  color: #3B592C;
+}
+#services .service-column:hover p, #services .service-column:hover h2, #services .service-column:hover h3, #services .service-column:hover h4 {
+  color: #FEFEE1;
 }
 #services .service-column:hover {
   background-color: #579f6a;
@@ -640,9 +734,9 @@ a:hover {
 }
 #services .service-column:hover .service-icon {
   background-color: #fff;
-  -webkit-box-shadow: inset 0 0 0 0 #df5757;
-  -moz-box-shadow: inset 0 0 0 0 #df5757;
-  box-shadow: inset 0 0 0 0 #df5757;
+  -webkit-box-shadow: inset 0 0 0 0 #FEFEE1;
+  -moz-box-shadow: inset 0 0 0 0 #FEFEE1;
+  box-shadow: inset 0 0 0 0 #FEFEE1;
   margin-top: 30px;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
@@ -652,11 +746,11 @@ a:hover {
 #services .service-column:hover h2 {
   margin-top: 30px;
   margin-bottom: 30px;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
+  color: #FEFEE1;
 }
 #services .service-column:hover i {
   text-align: center;
@@ -676,13 +770,10 @@ a:hover {
 #portfolio {
   text-align: center;
   padding: 100px 0;
-  -webkit-box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0.1);
-  box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0.1);
 }
 #portfolio h1 {
   margin: 0 0 40px 0;
-  color: #717171;
+  color: #3B592C;
 }
 #portfolio .cat-list {
   text-align: center;
@@ -881,13 +972,10 @@ a:hover {
   background-color: #ebebeb;
   text-align: center;
   padding: 100px 0;
-  -webkit-box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0.1);
-  box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0.1);
 }
 #testimonials h1 {
   margin: 0 0 40px 0;
-  color: #717171;
+  color: #3B592C;
 }
 .da-slider {
   width: 100%;
@@ -933,7 +1021,7 @@ a:hover {
   opacity: 1;
 }
 .da-slide .block-cite {
-  color: #717171;
+  color: #3b592c;
   font-size: 14px;
   width: 70%;
   top: 130px;
@@ -1029,7 +1117,7 @@ a:hover {
   top: 2px;
   left: 2px;
   border-radius: 50%;
-  background: #df5757;
+  background: #FEFEE1;
 }
 .da-arrows {
   -moz-user-select: none;
@@ -2153,19 +2241,16 @@ a:hover {
   background-color: #579f6a;
   text-align: center;
   padding: 100px 0;
-  -webkit-box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0.1);
-  box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0.1);
 }
 #contact h1 {
   margin: 0 0 40px 0;
-  color: #fff;
+  color: #3B592C;
 }
 #contact p {
-  color: #fff;
+  color: #84AC63;
 }
 #contact .icon {
-  color: #fff;
+  color: #BED58E;
   margin-top: 20px;
 }
 #contact .contact-meta {
@@ -2221,7 +2306,7 @@ a:hover {
 }
 #contact form button[type="submit"] {
   outline: none;
-  background: none;
+  background: #3B592C;
   color: #fff;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -2229,7 +2314,7 @@ a:hover {
   transition: all 0.2s ease-out;
 }
 #contact form button[type="submit"]:hover {
-  background-color: #fff;
+  background-color: #84AC63;
   color: #579f6a;
 }
 /* ==========================================================================
@@ -2305,7 +2390,6 @@ a:hover {
     color: #717171;
   }
   .navbar .navbar-collapse {
-    background-color: rgba(255, 255, 255, 0);
     text-align: center;
     -webkit-box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0);
     -moz-box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0);
@@ -2356,7 +2440,6 @@ a:hover {
     color: #717171;
   }
   .navbar .navbar-collapse {
-    background-color: rgba(255, 255, 255, 0);
     text-align: center;
     -webkit-box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0);
     -moz-box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0);
