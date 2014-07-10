@@ -236,7 +236,7 @@
 <!-- Portfolio Section -->
 <section id="portfolio" class="cbp-so-section cbp-so-init">
     <div class="container cbp-so-side cbp-so-side-top opaq">
-        <h1>I've built a few applications in my time</h1>
+        <h1>I've built a few apps in my time</h1>
 
         <ul id="portfolio-grid" class="row portfolio-row">
             <li class="portfolio-mix col-md-3 ui-design">
@@ -290,16 +290,13 @@
             <li class="portfolio-mix col-md-3 ui-design">
                 <figure class="portfolio-item">
                     <a href="http://www.wedo.co.uk/" target="_blank">
-                        <img class="img-responsive" src="assets/wedo.jpg"
-                             alt="Wedo" title="Wedo">
+                        <img class="img-responsive" src="assets/londonde.jpg"
+                             alt="London DE" title="London DE">
 
                         <div class="caption-bg"></div>
-                        <h3>Wedo</h3>
+                        <h3>London DE</h3>
 
-                        <p class="portfolio-item-description">Magento, Amazon AWS,
-                            Varnish, development, API integration, Code Reviews,
-                            git feature branches, PHPunit, selenium, jenkins,
-                            CSS development using LESS</p>
+                        <p class="portfolio-item-description">Laravel4, AWS, HTML5, CSS3</p>
                     </a>
                 </figure>
             </li>
