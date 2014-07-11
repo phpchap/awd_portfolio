@@ -46,7 +46,7 @@
                 <li><a href="#about">Who Am I</a></li>
                 <li><a href="#services">What I Do</a></li>
                 <li><a href="#portfolio">What I've Built</a></li>
-                <li><a href="#testimonials">What Clients Said</a></li>
+                <li><a href="#testimonials">What People Say</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li><a href="cv/Justen_Doherty_Snr_PHP_Developer_2014.docx">CV</a></li>
             </ul>
@@ -220,7 +220,7 @@
                         </progress>
                     </li>
                     <li class="skill">
-                        <h3>Laravel 4 (1 year)</h3>
+                        <h3>Laravel 4 (8 months)</h3>
                         <progress class="skill-4" max="100" value="10">
                             <strong>Skill Level: 10%</strong>
                         </progress>
