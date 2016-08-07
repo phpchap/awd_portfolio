@@ -48,7 +48,7 @@
                 <li><a href="#portfolio">What I've Built</a></li>
                 <li><a href="#testimonials">What People Say</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><a href="cv/Justen_Doherty_Snr_PHP_Developer_2014.docx">CV</a></li>
+                <li><a href="cv/ten_Doherty_Lead_PHP_Developer_2016.docx">CV</a></li>
             </ul>
         </nav>
         <!--/.navbar-collapse -->
